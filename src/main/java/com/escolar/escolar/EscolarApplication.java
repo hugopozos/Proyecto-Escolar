@@ -15,6 +15,12 @@ public class EscolarApplication {
 		Catedratico.altaCatedratico("AEGS230101254", "Santiago Almeida González");
 		Catedratico.mostrarCatedraticos();
 
+		//SpringApplication.run(EscolarApplication.class, args);
+		Materia.altaMaterias(1,"Ingeniería de Software");
+		Materia.altaMaterias(2,"Lenguajes de Interfaz");
+		Materia.altaMaterias(3,"Fundamentos de Ingeniería de Software");
+		//Materia.mostrarMaterias();  //Este método se encuentra como comentario en la clase Materia, decomentar primero para llamarlo.
+
 	}
 
 }
