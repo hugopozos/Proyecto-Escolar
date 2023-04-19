@@ -8,16 +8,23 @@ public class EscolarApplication {
 
 	public static void main(String[] args) {
 
-
+		Especialidad especialidad1 = new Especialidad(1, "Computacion Avanzada");
+		Alumno.altaAlumno(1, "Gonzalo Anuar Perez Aramburo", especialidad1);
+    
 		//SpringApplication.run(EscolarApplication.class, args);
 		Catedratico.altaCatedratico("JUTS2301015V5", "Senen Juárez Tinoco");
 		Catedratico.altaCatedratico("RARL230101PK5","Liliana Rangel Rentería");
 		Catedratico.altaCatedratico("AEGS230101254", "Santiago Almeida González");
-		Catedratico.mostrarCatedraticos();
+		Catedratico.mostrarCatedraticos();		
 
-		
-		Especialidad especialidad1 = new Especialidad(1, "Computacion Avanzada");
-		Alumno.altaAlumno(1, "Gonzalo Anuar Perez Aramburo", especialidad1);
+
+		//SpringApplication.run(EscolarApplication.class, args);
+		Materia.altaMaterias(1,"Ingeniería de Software");
+		Materia.altaMaterias(2,"Lenguajes de Interfaz");
+		Materia.altaMaterias(3,"Fundamentos de Ingeniería de Software");
+		//Materia.mostrarMaterias();  //Este método se encuentra como comentario en la clase Materia, decomentar primero para llamarlo.
+
+
 	}
 //Esto es solo un comentario
 }
