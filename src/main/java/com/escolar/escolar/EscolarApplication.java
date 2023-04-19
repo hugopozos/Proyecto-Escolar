@@ -15,6 +15,7 @@ public class EscolarApplication {
 		System.out.println("Ingrese alguna opcion para dar de alta: ");
 		String num = scanner.next();
 
+		//Hola como estas
 		switch (num){
 			case "1":
 				//Alta de la Especialidad
