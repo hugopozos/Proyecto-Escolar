@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EscolarApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EscolarApplication.class, args);
+		
+		Especialidad especialidad1 = new Especialidad(1, "Computacion Avanzada");
+		Alumno.altaAlumno(1, "Gonzalo Anuar Perez Aramburo", especialidad1);
 	}
 
 }
