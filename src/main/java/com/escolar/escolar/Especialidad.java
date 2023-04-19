@@ -18,4 +18,19 @@ public class Especialidad{
     public static void altaEspecialidad (int idEspecialidad,String nombreEspecialidad){
         especialidad.add(new Especialidad(idEspecialidad,nombreEspecialidad));
     }
+    public String getNombreEspecialidad() {
+
+        return nombreEspecialidad;
+    }
+    public void setNombreEspecialidadE(String nombreEspecialidad) {
+
+        this.nombreEspecialidad = nombreEspecialidad;
+    }
+    public int getidEspecialida() {
+        return idEspecialidad;
+    }
+
+    public void setIdEspecialidad(int idEspecialidad) {
+        this.idEspecialidad = idEspecialidad;
+    }
 }
