@@ -7,11 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EscolarApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EscolarApplication.class, args);
-		/*Materia.altaMaterias(1,"Software");
-		Materia.altaMaterias(2,"Cálculo Integral");
-		Materia.altaMaterias(3,"Desarrollo Sustentable");
-		Materia.mostrarMaterias();*/
+		
+
+		//SpringApplication.run(EscolarApplication.class, args);
+		Catedratico.altaCatedratico("JUTS2301015V5", "Senen Juárez Tinoco");
+		Catedratico.altaCatedratico("RARL230101PK5","Liliana Rangel Rentería");
+		Catedratico.altaCatedratico("AEGS230101254", "Santiago Almeida González");
+		Catedratico.mostrarCatedraticos();
+
 	}
 
 }
