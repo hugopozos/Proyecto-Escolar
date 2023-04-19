@@ -24,6 +24,8 @@ public class EscolarApplication {
 		Materia.altaMaterias(3,"Fundamentos de Ingeniería de Software");
 		//Materia.mostrarMaterias();  //Este método se encuentra como comentario en la clase Materia, decomentar primero para llamarlo.
 
+		//Alta de especialidad de la carrera de sistemas
+		Especialidad.altaEspecialidad(1,"Concurrencia");
 
 	}
 //Esto es solo un comentario
