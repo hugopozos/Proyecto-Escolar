@@ -16,5 +16,5 @@ public class EscolarApplication {
 		Catedratico.mostrarCatedraticos();
 
 	}
-
+//Esto es solo un comentario
 }
